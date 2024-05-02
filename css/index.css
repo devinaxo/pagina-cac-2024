@@ -12,7 +12,7 @@
 .colored-box-indexalt1{
     margin: -2% auto 5% auto;
     padding: 1%;
-    width: 60%;
+    width: 70%;
     height: auto;
     background-color: #fafafa;
     border-radius: 15px 15px;
@@ -88,4 +88,55 @@
 }
 .title-highlight{
     color: #3caed8;
+}
+@media (min-width: 300px){
+    .colored-box-index{
+        width: 90%;
+        padding: 5%;
+    }
+    .colored-box-indexalt1{
+        width: 85%;
+        padding: 5%;
+    }
+    .learn-btn{
+        font-size: 1rem;
+    }
+    .schedule-btn{
+        font-size: 1rem;
+    }
+    .flex-presentation{
+        flex-direction: column;
+    }
+    .laundry-image{
+        width: 100%;
+    }
+}
+@media (min-width: 360px){
+    .colored-box-index{
+        width: 90%;
+        padding: 2%;
+    }
+    .colored-box-indexalt1{
+        width: 85%;
+        padding: 2%;
+    }
+}
+@media (min-width: 600px){
+    .flex-presentation{
+        flex-direction: row;
+    }
+    .learn-btn{
+        font-size: 1.5rem;
+    }
+    .schedule-btn{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 900px){
+    .laundry-image{
+        width: 50%;
+    }
+}
+@media (min-width: 1100px){
+    
 }
