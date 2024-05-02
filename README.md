@@ -6,10 +6,15 @@ Mi papá tiene una lavandería. Quise hacer una página que puedamos vincular en
 
 #Progreso:
 - [ ] Index
+    - [ ] Responsive
 - [x] Servicios
+    - [x] Responsive
 - [x] Ubicación
+    - [x] Reponsive
 - [x] Contacto
+    - [x] Responsive
 - [ ] ~opcional, Nuestra historia
+    - [ ] Responsive
 
 ## Integrantes
 * Santiago Zanetti
