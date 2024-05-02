@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Lavanderia Del 13</title>
     <link rel="shortcut icon" href="img/laundromat.ico" type="image/x-icon">
-    <!-- estilo generakl -->
+    <!-- estilo general -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
     <!-- fuentes de google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +24,31 @@
       });
       </script>
 </head>
-<body>
+<body class="body-color">
     <div id="header"></div>
-    <h1>Hola Lavanderia Del 13</h1>
+    <div>
+        <div class="main-image-container">
+            <img src="img/front3.png" alt="" class="main-image">
+        </div>
+        <div class="colored-box-index">
+            <div class="flex-presentation">
+                <div>
+                    <h1 class="h1-fonter centered"> Despreocupate de tu ropa sucia y dásela a la <span class="title-highlight">Lavandería del 13</span></h1>
+                    <h4 class="greyed-text centered">El mejor servicio de lavado en la zona sur de Salta Capital</h4>
+                    <div class="btn-container">
+                        <a class="schedule-btn" href="contact.html" target="_self">Programar una visita</a>
+                        <a class="learn-btn" href="services.html" target="_self">Aprender más</a>
+                    </div>
+                </div>
+                <img src="img/laundry-icon-1.png" alt="" class="laundry-image">
+            </div>
+        </div>
+        <div class="colored-box-indexalt1">
+            <h1 class="h1-fonter">¡Solo lea los testimonios de nuestros clientes satisfechos!</h1> <br>
+            <div class='sk-ww-google-reviews' data-embed-id='25406782'></div>
+            <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+        </div>
+    </div>
     <div id="footer"></div>
 </body>
 </html>

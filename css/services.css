@@ -24,10 +24,10 @@
     margin-right: auto;
     height: auto;
     background-color: #fafafa;
-    border-radius: 1em;
+    border-radius: 15px 15px;
     box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
 }
 .colored-box-alt2{
     margin-top: 1%;
@@ -37,10 +37,10 @@
     margin-right: 15%;
     height: fit-content;
     background-color: #fafafa;
-    border-radius: 1em;
+    border-radius: 15px 15px;
     box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
 }
 .colored-box-alt3{
     margin: 1%;
@@ -50,10 +50,10 @@
     margin-right: auto;
     height: auto;
     background-color: #fafafa;
-    border-radius: 1em;
+    border-radius: 15px 15px;
     box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
 }
 .services-box{
     width: 100%;
@@ -63,6 +63,14 @@
 .service-icon{
     margin-left: auto;
     margin-right: auto;
+}
+.amenities-pic{
+    width: 46%;
+    margin: 1%;
+    border-radius: 15px 15px;
+    box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
 }
 @media (min-width: 300px){
     .colored-box-alt2{width: 100%; margin-top: 5%;}
