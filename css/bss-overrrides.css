@@ -8,5 +8,9 @@
     font-weight: 600;
 }
 .nav-link:hover{
-    color: #0694ff !important;
+    color: #3caed8 !important;
+}
+.btn-primary{
+    --bs-btn-bg: #3caed8;
+    --bs-btn-border-color: #3caed8;
 }
