@@ -67,6 +67,7 @@
 .amenities-pic{
     width: 46%;
     margin: 1%;
+    margin-bottom: 5%;
     border-radius: 15px 15px;
     box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
     -webkit-box-shadow: 1px 1px 80px -39px rgba(0,0,0,0.75);
