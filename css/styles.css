@@ -54,90 +54,6 @@ p, td, th, li{
     margin-top: 16px;
 }
 
-/* footer */
-.footer-container{
-    background-color: #48cfff;
-    text-align: center;
-    display: block;
-    box-sizing: border-box;
-    box-shadow: 0px -3px 17px 0px rgba(0,0,0,0.44);
-    -webkit-box-shadow: 0px -3px 17px 0px rgba(0,0,0,0.44);
-    -moz-box-shadow: 0px -3px 17px 0px rgba(0,0,0,0.44);
-}
-.container1{
-    text-align: left;
-}
-.div-block1{
-    max-width: 45%;
-    flex: 0 auto;
-    margin-top: 10px;
-    display: block;
-}
-.list{
-    max-width: none;
-    margin-top: 2px;
-    padding-left: 0;
-    list-style-type: none;
-    display: block;
-}
-.w-list{
-    padding-left: 0;
-    list-style: none;
-    list-style-type: none;
-}
-.footer-link{
-    color: #3d3d3d;
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    display: block;
-}
-.div-block2{
-    margin-top: 10px;
-    padding-bottom: 1.5%;
-}
-.w-inlineblock{
-    max-width: 100%;
-    display: inline-block;
-}
-.social-media-icon{
-    width: 50px;
-    height: 50px;
-    transition: transform 0.2s ease-in;
-}
-.social-media-icon:hover{
-    transform: scale(1.1);
-}
-.w-container{
-    max-width: 940px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.footer-flex{
-    text-align: left;
-    flex-flow: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
-    display: flex;
-}
-.footer-logo{
-    max-height: 80px;
-    min-width: 60px;
-    flex: 0 auto;
-}
-.footer-image{
-    vertical-align: middle;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    max-width: 400px;
-    object-fit: contain;
-    object-position: 0% 50%;
-    margin-bottom: 19px;
-    padding-bottom: 0;
-}
-
 /* media queries */
 @media (min-width: 300px){
     .h1-fonter{font-size: 1.5rem;}
@@ -145,9 +61,6 @@ p, td, th, li{
     .w-container{max-width: 300px;}
     .logo-pic{width: 12rem;}
     .logo-pic:hover{width: 14rem;}
-    .footer-image{max-width: 100px;}
-    .footer-link{font-size: 0.5rem;}
-    .social-media-icon{width: 20px; height: 20px;}
 }
 @media (min-width: 360px){
     .h1-fonter{font-size: 1.5rem;}
@@ -155,9 +68,6 @@ p, td, th, li{
     .w-container{max-width: 350px;}
     .logo-pic{width: 10rem;}
     .logo-pic:hover{width: 12rem;}
-    .footer-image{max-width: 130px;}
-    .footer-link{font-size: 0.6rem;}
-    .social-media-icon{width: 25px; height: 25px;}
 }
 @media (min-width: 600px){
     .h1-fonter{font-size: 2rem;}
@@ -165,24 +75,15 @@ p, td, th, li{
     .w-container{max-width: 600px;}
     .logo-pic{width: 10rem;}
     .logo-pic:hover{width: 12rem;}
-    .footer-image{max-width: 250px;}
-    .footer-link{font-size: 0.7rem;}
-    .social-media-icon{width: 35px; height: 35px;}
 }
 @media (min-width: 900px){
     .w-container{max-width: 800px;}
     .logo-pic{width: 13rem;}
     .logo-pic:hover{width: 15rem;}
-    .footer-image{max-width: 300px;}
-    .footer-link{font-size: 0.9rem;}
-    .social-media-icon{width: 45px; height: 45px;}
 }
 @media (min-width: 1100px){
     .colored-box{width: 45%;}
     .w-container{max-width: 940px;}
     .logo-pic{width: 13rem;}
     .logo-pic:hover{width: 15rem;}
-    .footer-image{max-width: 400px;}
-    .footer-link{font-size: 1.1rem;}
-    .social-media-icon{width: 50px; height: 50px;}
 }
