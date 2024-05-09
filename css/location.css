@@ -34,6 +34,9 @@
     margin-right: auto;
     width: 49%;
 }
+.custom-list{
+    list-style-type: none;
+}
 @media (min-width: 300px){
     .gridbox{grid-template-columns: repeat(1, 1fr);}
     .hours-box{width: 100%;}
