@@ -23,6 +23,8 @@
         $("#footer").load("footer.html"); 
       });
       </script>
+      <script src="js/validation.js"></script>
+      <script src="js/transition.js"></script>
   </head>
   <body class="body-color">
     <div id="header"></div>
@@ -38,14 +40,14 @@
           </p>
           <form action="https://formsubmit.co/ishijissika@gmail.com" method="POST">
             <div class="form-group">
-              <label for="name">Nombre completo</label>
+              <label for="name">Nombre completo*</label>
               <div class="input-group">
                 <div class="input-group-prepend">
                   <div class="input-group-text">
                     <i class="fa fa-address-card"></i>
                   </div>
                 </div>
-                <input id="name" name="name" type="text" class="form-control" required>
+                <input id="name" name="name" type="text" class="form-control" aria-hidden="false" aria-invalid="true" required minlength="2" maxlength="40"  placeholder="Max. 40 caracteres">
               </div>
             </div>
             <div class="form-group">
@@ -56,22 +58,22 @@
                     <i class="fa fa-envelope-open"></i>
                   </div>
                 </div>
-                <input id="email" name="email" type="email" class="form-control">
+                <input id="email" name="email" type="email" class="form-control" maxlength="80" placeholder="ejemplo@dominio.com">
               </div>
             </div>
             <div class="form-group">
-              <label for="phone">Teléfono</label>
+              <label for="phone">Teléfono*</label>
               <div class="input-group">
                 <div class="input-group-prepend">
                   <div class="input-group-text">
                     <i class="fa fa-phone-square"></i>
                   </div>
                 </div>
-                <input id="phone" name="phone" type="text" class="form-control" required>
+                <input id="phone" name="phone" type="text" class="form-control" required minlength="7" maxlength="10" placeholder="Con código de area">
               </div>
             </div>
             <div class="form-group">
-              <label for="select">Razón de contacto</label>
+              <label for="select">Razón de contacto*</label>
               <div>
                 <select id="select" name="select" class="custom-select" required>
                   <option value="" disabled selected>Seleccione una opción</option>
@@ -87,30 +89,31 @@
               <textarea id="textarea" name="textarea" cols="40" rows="3" class="form-control"></textarea>
             </div>
             <div class="form-group row">
-              <label class="col-4 col-form-label">Prefiero ser contactado por:</label> 
+              <label class="col-4 col-form-label">Prefiero ser contactado por:*</label> 
               <div class="col-8">
                 <div class="custom-controls-stacked">
                   <div class="custom-control custom-radio">
-                    <input name="radio" id="radio_0" type="radio" class="custom-control-input" value="email-contact" required="required"> 
+                    <input name="radio" id="radio_0" type="radio" class="custom-control-input" value="email-contact" required> 
                     <label for="radio_0" class="custom-control-label">E-mail</label>
                   </div>
                 </div>
                 <div class="custom-controls-stacked">
                   <div class="custom-control custom-radio">
-                    <input name="radio" id="radio_1" type="radio" class="custom-control-input" value="telephone-contact" required="required"> 
+                    <input name="radio" id="radio_1" type="radio" class="custom-control-input" value="telephone-contact" required> 
                     <label for="radio_1" class="custom-control-label">Teléfono</label>
                   </div>
                 </div>
                 <div class="custom-controls-stacked">
                   <div class="custom-control custom-radio">
-                    <input name="radio" id="radio_2" type="radio" class="custom-control-input" value="not-contact" required="required"> 
+                    <input name="radio" id="radio_2" type="radio" class="custom-control-input" value="not-contact" required>
                     <label for="radio_2" class="custom-control-label">Prefiero no ser contactado</label>
                   </div>
                 </div>
               </div>
             </div> 
             <div class="form-group">
-              <button name="submit" type="submit" class="btn btn-primary">Enviar</button>
+              <button id="submit" name="submit" type="submit" class="btn btn-primary">Enviar</button>
+              <button id="reset" name="reset" type="reset" class="btn btn-primary">Borrar</button>
             </div>
           </form>
           <hr>
