@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
     $('a').each(function() {
          if ( location.hostname === this.hostname || !this.hostname.length ) {
             var link = $(this).attr("href");
