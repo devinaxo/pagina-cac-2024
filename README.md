@@ -4,7 +4,7 @@ Proyecto final para curso Codo a Codo 2024 1° (Node Js)
 # Idea gral.
 Mi papá tiene una lavandería. Quise hacer una página que puedamos vincular en la página de Google y que él pueda compartir.
 
-#Progreso:
+# Progreso:
 
 - [x] Index
     - [x] Responsive
