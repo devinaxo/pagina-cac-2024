@@ -44,9 +44,11 @@ p, td, th, li{
 
 /* transición */
 html {
-    animation: fadeSiteIn 0.5s ease forwards;
+    animation: fadeSiteIn 0.5s ease-in-out forwards;
 }
-
+.faded-out{
+    opacity: 0;
+}
 html.fadeSiteOut {
   animation:  fadeSiteOut 0.5s ease forwards;
 }

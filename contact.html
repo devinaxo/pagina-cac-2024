@@ -38,7 +38,7 @@
             enorgullecidos de ser una <strong>lavandería económica</strong>, que atiende en los alrededores del <strong>barrio Santa Ana, Salta</strong>.
             Su consulta no nos molesta, ¡escríbanos!
           </p>
-          <form action="https://formsubmit.co/ishijissika@gmail.com" method="POST">
+          <form action="https://formsubmit.co/ishijissika@gmail.com" method="POST" class="needs-validation" novalidate>
             <div class="form-group">
               <label for="name">Nombre completo*</label>
               <div class="input-group">
@@ -47,7 +47,10 @@
                     <i class="fa fa-address-card"></i>
                   </div>
                 </div>
-                <input id="name" name="name" type="text" class="form-control" aria-hidden="false" aria-invalid="true" required minlength="2" maxlength="40"  placeholder="Max. 40 caracteres">
+                <input id="name" name="name" type="text" class="form-control" minlength="5" maxlength="40"  placeholder="Max. 40 caracteres" required>
+                <div class="invalid-feedback">
+                  Escriba un nombre válido.
+                </div>
               </div>
             </div>
             <div class="form-group">
@@ -69,7 +72,10 @@
                     <i class="fa fa-phone-square"></i>
                   </div>
                 </div>
-                <input id="phone" name="phone" type="text" class="form-control" required minlength="7" maxlength="10" placeholder="Con código de area">
+                <input id="phone" name="phone" type="text" class="form-control" required minlength="7" maxlength="10" placeholder="Con código de area" required>
+                <div class="invalid-feedback">
+                  Escriba un número (de teléfono fijo o celular) válido.
+                </div>
               </div>
             </div>
             <div class="form-group">
@@ -82,11 +88,17 @@
                   <option value="badstuff">Quejas</option>
                   <option value="greatvalue">Contratación por mayor</option>
                 </select>
+                <div class="invalid-feedback">
+                  Elija una razón de contacto.
+                </div>
               </div>
             </div>
             <div class="form-group">
-              <label for="textarea">Mensaje / Detalles</label>
-              <textarea id="textarea" name="textarea" cols="40" rows="3" class="form-control"></textarea>
+              <label for="textarea">Mensaje / Detalles*</label>
+              <textarea id="textarea" name="textarea" cols="40" rows="3" class="form-control" minlength="40" required></textarea>
+              <div class="invalid-feedback">
+                Escriba mínimo 40 caracteres.
+              </div>
             </div>
             <div class="form-group row">
               <label class="col-4 col-form-label">Prefiero ser contactado por:*</label> 
@@ -107,6 +119,9 @@
                   <div class="custom-control custom-radio">
                     <input name="radio" id="radio_2" type="radio" class="custom-control-input" value="not-contact" required>
                     <label for="radio_2" class="custom-control-label">Prefiero no ser contactado</label>
+                    <div class="invalid-feedback">
+                      Elija una forma de contacto.
+                    </div>
                   </div>
                 </div>
               </div>
